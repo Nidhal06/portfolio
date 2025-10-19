@@ -111,11 +111,11 @@ function initTypedJS() {
 /* ANIMATING SKILL BARS */
 function initSkillBars() {
   const skillBars = document.querySelectorAll('.skill-progress');
-  
+
   skillBars.forEach(bar => {
     const targetWidth = bar.getAttribute('data-width');
     bar.style.width = targetWidth + '%';
-    bar.style.backgroundColor = '#0ef'; 
+    bar.style.backgroundColor = '#0ef';
   });
 }
 
